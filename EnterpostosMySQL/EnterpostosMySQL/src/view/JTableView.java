@@ -23,7 +23,6 @@ public class JTableView extends javax.swing.JFrame {
      */
     public JTableView() {
         initComponents();
-        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         
         DefaultTableModel modelo = (DefaultTableModel) jTProdutos.getModel();
         jTProdutos.setRowSorter(new TableRowSorter(modelo));

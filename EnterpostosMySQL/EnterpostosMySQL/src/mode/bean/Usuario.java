@@ -11,25 +11,16 @@ package mode.bean;
  */
 public class Usuario {
     
-    private int Id;
+    private int id;
     private String usuario;
     private String senha;
-    private String email;
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        this.Id = id;
+        this.id = id;
     }
 
     public String getUsuario() {

@@ -70,11 +70,6 @@ public class PrincipalView extends javax.swing.JFrame {
 
         jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/user.png"))); // NOI18N
         jMenu2.setText("Usuarios");
-        jMenu2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jMenu2MouseClicked(evt);
-            }
-        });
         jMenuBar1.add(jMenu2);
 
         jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/group.png"))); // NOI18N
@@ -133,18 +128,13 @@ public class PrincipalView extends javax.swing.JFrame {
 
     private void jMenu3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu3MouseClicked
         
-        new ClienteView().setVisible(true);
+        new CadastroClienteView().setVisible(true);
     }//GEN-LAST:event_jMenu3MouseClicked
 
     private void jMenu4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu4MouseClicked
         
         JOptionPane.showMessageDialog(null, "Projeto Interdiciplinar UEMG - Frutal 2019 \n" + "Integrantes: \n - Bruno Soares Marcondes\n - Guilherme Serpa Batista\n - Laís Aparecida Vieira de Freitas\n - Matheus Tomáz  Souza\n - Paulo Otavio Alves de Medeiros\n\n\n Orientador:\n - Leonardo Vieira Barcelos");
     }//GEN-LAST:event_jMenu4MouseClicked
-
-    private void jMenu2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu2MouseClicked
-        
-        new UsuarioView().setVisible(true);
-    }//GEN-LAST:event_jMenu2MouseClicked
 
     /**
      * @param args the command line arguments
