@@ -1,4 +1,4 @@
-![logo](https://i.imgur.com/wCh25g4.png)
+![logo](https://i.imgur.com/wCh25g4.png)![logo](https://i.imgur.com/qBQtEir.png)
 
 * Esse sistema é um projeto realizado por alunos do 1º semestre do curso de Sistemas de Informações da UEMG - Frutal.
 
