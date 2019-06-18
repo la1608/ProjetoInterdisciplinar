@@ -80,4 +80,4 @@ CREATE TABLE `usuarios` (
 # Data for table "usuarios"
 #
 
-INSERT INTO `usuarios` VALUES (1,'j.tomaz','admin','vendas@enterpostos.com.br');
+INSERT INTO `usuarios` VALUES (1,'admin','admin','admin@admin');
