@@ -28,14 +28,14 @@ Para rodar o sistema você precisará de:
 
 ## Guia Rápido
 
-1. Faça o [Download do Sistema] (https://github.com/la1608/ProjetoInterdisciplinar/raw/master/Compilado/EnterpostosMySQL.rar) e extraia. Alternativa, você pode usar o comando **Tecla Windows + R**, digitar ``cmd`` e enter. E rodar o seguinte comando
+1. Faça o [Download do Sistema](https://github.com/la1608/ProjetoInterdisciplinar/raw/master/Compilado/EnterpostosMySQL.rar) e extraia. Alternativa, você pode usar o comando **Tecla Windows + R**, digitar ``cmd`` e enter. E rodar o seguinte comando
 no cmd para clonar o diretório do sistema.
 ***Nota: [Git](https://git-scm.com/) é requerido.***
 ```
 git clone https://github.com/la1608/ProjetoInterdisciplinar.git
 ```
 
-2. Faça o [Download do Banco de Dados] (https://raw.githubusercontent.com/la1608/ProjetoInterdisciplinar/master/Database/empresa.sql) e importe para seu serviço de mysql local.
+2. Faça o [Download do Banco de Dados](https://raw.githubusercontent.com/la1608/ProjetoInterdisciplinar/master/Database/empresa.sql) e importe para seu serviço de mysql local.
 
 3. Execute o atalho **Enterpostos.jar** da pasta ``EnterpostosMySQL`` ou, execute o **EnterpostosMySQL.jar** da pasta ``EnterpostosMySQL\dist``
 
